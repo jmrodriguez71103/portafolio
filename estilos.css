@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -340,7 +344,7 @@ nav ul li a:hover::after{
 
 }
 
-.nav .fas{
+nav .fas{
     display: none;
 }
 
